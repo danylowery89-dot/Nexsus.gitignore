@@ -2,7 +2,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 import os
 import base64
 
-# Умное определение папки, где лежит этот скрипт р.py
+# Умное определение папки, где лежит этот скрипт main.py
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Пытаемся прочитать картинку и превратить её в текст (Base64)
