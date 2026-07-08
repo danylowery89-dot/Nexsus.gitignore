@@ -853,4 +853,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
 
 
 port = int(os.environ.get("PORT", 8000))
+print(f"NEXUS AI v.5.2 Quantum Online: http://0.0.0.0:{port}")
+
 server = HTTPServer(("0.0.0.0", port), SimpleHandler)
+server.serve_forever()
