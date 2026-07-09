@@ -403,7 +403,7 @@ html_code = """
                     <select id="model-select" class="bg-zinc-900 border border-white/10 rounded-2xl text-[9px] px-5 h-14 font-black uppercase outline-none focus:acid-border cursor-pointer">
                         <optgroup label="Text">
                             <option value="gpt">GPT 5.5 Ultra</option>
-                            <option value="cloud">Cloud Opus 4.8</option>
+                            <option value="cloud">Claude Opus 4.8</option>
                             <option value="gemini">Gemini 2.0 Ultra</option>
                             <option value="deepseek">DeepSeek V3</option>
                         </optgroup>
